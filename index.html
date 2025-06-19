@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Guessing Number</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="bg-primary-subtle text-primary-emphasis">
+    <h1 class="text-center my-5 text-inf">Guess The Number</h1>
+    <main>
+      <div
+        class="container bg-warning text-dark p-4 w-25 p-3 border border-danger"
+        style="border-radius: 15px"
+      >
+        <form method="post" action="./index.html">
+          <div
+            class="mb-3 text-center"
+            style="font-weight: bold; font-size: 20px; font-family: sans-serif"
+          >
+            <label for="guessbox" class="form-label">Enter your guess</label>
+            <input
+              type="number"
+              class="form-control"
+              id="guessbox"
+              placeholder="1 to 100"
+            />
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <button type="submit" class="btn btn-primary" id="submit_btn">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <div
+        class="container bg-primary-subtle p-4 w-25 mb-3"
+        id="result_portion"
+        style="border-radius: 15px"
+      ></div>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
