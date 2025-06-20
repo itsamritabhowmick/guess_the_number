@@ -16,6 +16,7 @@ btn.addEventListener("click", (e) => {
   let val = inp.value; //  val get a string value here
   val = Number(val); // here this string value is changed to a number
 
+  //input section
   if (!val || val < 1 || val > 100) {
     alert("Please enter a valid number between 1 and 100");
     return;
